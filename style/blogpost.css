@@ -1,0 +1,60 @@
+.blogpost {
+  background-image: url("../images/banner_bg.jpg");
+  width: 100%;
+  height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blogpostContent {
+  display: flex;
+  width: 100%;
+}
+.blogpostContent .left {
+  width: 45%;
+  color: white;
+}
+.blogpostContent .left .leftContent {
+  margin: 50px 50px 50px 150px;
+}
+.blogpostContent .left .leftContent h3 {
+  padding: 20px 0;
+}
+
+.blogpostContent .left .leftContent .bottomBorder {
+  border-bottom: 2px solid white;
+  width: 85%;
+}
+.blogpostContent .left .leftContent p {
+  padding: 20px 0;
+  width: 80%;
+  line-height: 1.5;
+}
+.blogpostContent .left .leftContent .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 25px;
+  margin-top: 30px;
+}
+.blogpostContent .left .leftContent .buttons button {
+  padding: 15px;
+}
+.blogpostContent .right {
+}
+.blogpostContent .right .rightContent {
+  margin: 30px;
+}
+.blogpostContent .right .rightContent .imageDetails {
+  background-color: #fff;
+  width: 83%;
+  padding: 20px 20px;
+}
+.blogpostContent .right .rightContent .imageDetails h3 {
+  padding: 7px 0;
+}
+.blogpostContent .right .rightContent .imageDetails p {
+  padding: 10px 0;
+  line-height: 1.5;
+}

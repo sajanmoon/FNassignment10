@@ -1,0 +1,22 @@
+.yellowBox {
+  border: 2px solid #f6c452;
+  background-color: #f6c452;
+}
+
+.yellowBoxContent {
+  width: 600px;
+  background-color: #fff;
+  margin: 150px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+.yellowBoxContent p {
+  padding: 30px 30px;
+}
+.yellowBoxContent .subbox {
+  background-color: #f6c452;
+  color: #fff;
+}
+.yellowBoxContent .subbox .subboxContent {
+  padding: 30px 10px;
+}

@@ -1,0 +1,39 @@
+.imageGallaryContent {
+  display: flex;
+  width: 100%;
+}
+.imageGallaryContent .left {
+  width: 37%;
+  background-color: #32c1ce;
+  color: white;
+}
+.imageGallaryContent .left .leftContent {
+  margin: 100px 80px 100px 180px;
+}
+.imageGallaryContent .left .leftContent h2 {
+  margin: 20px 0;
+}
+.imageGallaryContent .left .leftContent .bottomBorder {
+  border-bottom: 2px solid white;
+}
+.imageGallaryContent .left .leftContent p {
+  margin: 20px 0;
+}
+.imageGallaryContent .left .leftContent ul {
+  list-style: none;
+  padding-top: 40px;
+}
+.imageGallaryContent .left .leftContent li {
+  padding: 8px 0;
+}
+.imageGallaryContent .right .images {
+  margin: 20px;
+}
+.imageGallaryContent .right .images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.imageGallaryContent .right .images img {
+  height: auto;
+  width: 350px;
+}

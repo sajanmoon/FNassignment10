@@ -1,0 +1,36 @@
+.contactUs {
+  background-color: #586064;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contactUsContext {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 10px; */
+}
+.contactUsContext h2 {
+  padding-bottom: 20px;
+}
+.contactUsContext .bottomBorder {
+  border-bottom: 1px solid white;
+  width: 50%;
+  margin: 10px auto 0 auto  ;
+}
+.contactUsContext p {
+  padding: 30px;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.contactUsContext button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #32c1ce;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,23 @@
+.footer {
+  background-color: #363b3c;
+  /* height: 30vh; */
+}
+.footerContent {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding: 70px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footerContent .cards {
+  color: white;
+}
+
+.footerContent .cards h4 {
+  padding-bottom: 20px;
+}
+.footerContent .secondCard .subCard {
+  display: flex;
+  gap: 10px;
+}
